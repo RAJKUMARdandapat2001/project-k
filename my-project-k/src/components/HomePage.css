@@ -1,0 +1,43 @@
+.header {
+    background-color: #2874f0;
+    padding: 15px 0;
+    color: white;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .banner-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.343);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .category-card {
+    border: none;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-grid .card {
+    transition: transform 0.3s;
+  }
+  
+  .product-grid .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-grid .card-title {
+    font-size: 1em;
+  }
+  
+  .product-grid .card-text {
+    color: #555;
+  }

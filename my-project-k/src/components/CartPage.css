@@ -1,0 +1,85 @@
+.order-area{
+    margin-top: 100px;
+}
+.order-total{
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+.order-card,
+.order-total{
+    margin: 0 0 10px 20%;
+    border: 1px solid black;
+    width: 60%;
+    padding: 10px;
+}
+.order-item,
+.order-price,
+.order-qty{
+   display: inline-flex;
+   min-width: 28%;
+}
+.qty-btn{
+    font-weight: bold;
+    background: white;
+    outline: none;
+    border: 1px solid black;
+    padding: 2px 7px;
+}
+.qty-btn:hover{
+    background: red;
+    color: antiquewhite;
+}
+.qty-btn:active{
+    background: yellow;
+}
+.qty-input{
+    width: 30px;
+    text-align: center;
+}
+.delete-btn{
+    color: red;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.delete-btn:hover{
+    background: palevioletred;
+    color: antiquewhite;
+}
+.delete-btn:active{
+    background-color: red;
+    border: 1px solid red;
+}
+.total,
+.total-price,
+.place-order-btn{
+    display: inline-flex;
+}
+.total{
+    min-width: 55%;
+}
+.total-price{
+    min-width: 33%;
+    text-align: right;
+}
+.place-order-btn{
+    border: 1px solid rgb(255, 238, 0);
+    background-color: rgb(255, 238, 0);
+    border-radius: 15px;
+    color: black;
+    font-weight: 400;
+    padding: 5px;
+}
+.place-order-btn:hover{
+    border: 1px solid rgb(255, 188, 3);
+    background-color: rgb(255, 188, 3);
+}
+.place-order-btn:active{
+    border: 1px solid rgb(255, 255, 0);
+    background-color: rgb(255, 255, 0);
+}
